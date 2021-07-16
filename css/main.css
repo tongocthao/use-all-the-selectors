@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+  font-family: sans-serif;
+}
+
+header,
+footer {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  font-family: san-serif;
+}
+
+img class="logo" {
+  text-transform: uppercase;
+}
+
+class•="wrapper" {
+  background-color: #eee8d5;
+}
+
+contents,
+favs,
+facts,
+types, {
+  color: #93a1a1;
+}
