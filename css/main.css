@@ -16,17 +16,56 @@ nav ul {
   font-family: san-serif;
 }
 
-img class="logo" {
+logo {
   text-transform: uppercase;
 }
 
-class="wrapper" {
+wrapper {
   background-color: #eee8d5;
 }
 
-contents,
-favs,
-facts,
-types, {
+contents
+favs
+facts
+types {
   color: #93a1a1;
+}
+
+wrapper > dfn {
+  background-color: #b58900;
+}
+
+dfn + strong {
+  color: #fff;
+}
+
+a href="index.html",
+a href="history.html",
+a href="contact.html",
+a href="#favs", {
+  background-color: #719e07;
+}
+
+rel="external" {
+  background-color: #2694d8;
+}
+
+Ras {
+  color: #719e47;
+}
+
+Blu {
+  color: #2aa198;
+}
+
+li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+li:nth-child(even) {
+  background-color: #586e75;
+}
+
+li:nth-child(3n+3) {
+  background-color: #d04b16;
 }
