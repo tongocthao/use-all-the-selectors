@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -9,6 +8,7 @@ html {
 
 body {
   background-color: #fdf6e3;
+  font-family: sans-serif;
 }
 
 header,
@@ -36,7 +36,7 @@ h2 {
   background-color: #b58900;
 }
 
-dfn + strong {
+dfn > strong {
   color: #fff;
 }
 
