@@ -39,22 +39,19 @@ dfn + strong {
   color: #fff;
 }
 
-a href="index.html",
-a href="history.html",
-a href="contact.html",
-a href="#favs", {
+a:not(.no-highlight){
   background-color: #719e07;
 }
 
-rel="external" {
+external {
   background-color: #2694d8;
 }
 
-Ras {
+ol li:first-child {
   color: #719e47;
 }
 
-Blu {
+ol li:last-child {
   color: #2aa198;
 }
 
