@@ -1,11 +1,14 @@
-*, *::before,
-*::after {
+html {
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
   background-color: #fdf6e3;
-  font-family: sans-serif;
 }
 
 header,
